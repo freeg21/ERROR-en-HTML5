@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor{
+	border: 1px solid black;
+	width: 1366px;
+	height: 768px;
+	background-color: #2E86C1;
+	margin: 5px auto;
+	padding: 5px;
+
+	display: flex;
+
+	flex-flow: column nowrap;
+	align-items: stretch;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 800px){
+	#contenedor{
+		flex-flow: column wrap;
+	}
+	{
+		background-color: black;
+		color: white;
+	}
+}
+
+#banner{
+	margin: 5px;
+	padding: 5px;
+	background-color: #3498DB;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 20%;
+}
+
+#menu{
+	margin: 5px;
+	padding: 5px;
+	background-color: #3498DB;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 10%;
+
+	display: flex;
+
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+
+	flex-grow: 1;	
+}
+
+#principal{
+	margin: 5px;
+	padding: 5px;
+	background-color: #3498DB;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 50%;
+}
+
+#section{
+	margin: 5px;
+	padding: 5px;
+	background-color: #5DADE2;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 94%;
+	width: 74.5%;
+	float: left;
+
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+}
+
+#aside{
+	margin: 5px;
+	padding: 5px;
+	background-color: #5DADE2;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 94%;
+	width: 20.5%;
+	float: right;
+}
+
+#footer{
+	margin: 5px;
+	padding: 5px;
+	background-color: #3498DB;
+	border: 1px solid white;
+	border-radius: 1em;
+	height: 10.5%
+}
+
+a{
+	border: 2px solid white;
+ 	border-radius: 1em;
+ 	text-align: center;
+ 	margin: 5px;
+ 	margin-bottom: 10px;
+ 	padding: 5px;	
+}
+
+a:hover{
+	border-color: lightblue;
+	color: black;
+	background-color: #1F618D;
+}
+img{
+	border-radius: 2em;
+}
